@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js04_ifelse</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script language="JavaScript">
+            var n1;
+            var n2;
+
+            n1 = parseInt(window.prompt('Digite o primeiro valor', '...'));
+            n2 = parseInt(window.prompt('Digite o segundo valor', '...'));
+
+            document.write('Primeiro número: ' + n1);
+            document.write('<p>Segundo número: ' + n2);
+
+            if (n1<n2) {
+                document.write('<p><b>Classificação em ordem crescente:</b>' + n1 + ' e ' + n2);
+            }
+            else{
+                document.write('<p><b>Classificação em ordem crescente:</b>' + n2 + ' e ' + n1);
+            }
+        </script>
+    </body>
+</html>
